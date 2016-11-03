@@ -1,0 +1,51 @@
+day 1:
+
+1
+moveRight();
+moveRight();
+useGreen();
+draw();
+
+
+2
+var initial_state = [ 'b', 'b', 'b', 'b', 'b' ];
+
+moveRight();
+moveRight();
+erase();
+
+
+3
+var initial_state = [ 'b', 'b', 'b', 'b', 'b' ];
+
+moveRight();
+erase();
+moveRight();
+moveRight();
+erase();
+
+
+4
+var initial_state = [ 'g', 'g', 'g', '.', '.' ];
+
+moveRight();
+useBlue();
+draw();
+moveRight();
+moveRight();
+useBlue();
+draw();
+
+5
+if(onBlue()){
+  useBlue();
+}
+else if(onGreen()){
+  useGreen();
+}
+erase();
+moveRight();
+moveRight();
+moveRight();
+moveRight();
+draw();
